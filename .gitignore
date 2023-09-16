@@ -1,0 +1,59 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Biblioteca
+{
+    class _
+    {
+        
+# Arquivos de compilação
+bin/
+obj/
+
+# Arquivos temporários
+*.user
+*.suo
+*.cache
+*.vscode
+.vs/
+
+# Dependências de pacotes NuGet
+packages/
+
+# Dependências de ferramentas de compilação (por exemplo, MSBuild)
+tools/
+
+# Arquivos de configuração de usuário
+*.suo
+*.user
+
+# Arquivos de log
+*.log
+
+# Arquivos de saída de teste
+TestResults/
+
+# Arquivos de ambiente Visual Studio
+*.vscode/
+.vscode/
+
+# Dependências específicas do IDE (por exemplo, Visual Studio)
+*.sln.docstates
+
+# Dependências específicas do Rider (IDE JetBrains)
+.idea/
+*.sln.iml
+
+# Arquivos de saída do Rider
+.idea/
+.idea/
+
+# Outros
+Thumbs.db
+.DS_Store
+desktop.ini
+    }
+}
