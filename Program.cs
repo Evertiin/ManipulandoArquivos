@@ -6,9 +6,9 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Channels;
 using static System.Net.Mime.MediaTypeNames;
-using Biblioteca.Métodos;
+using CadastroUsuarios.Métodos;
 
-namespace Biblioteca
+namespace   CadastroUsuarios
 {
     internal class Program
     {
@@ -25,11 +25,8 @@ namespace Biblioteca
                 Console.WriteLine("\nEscolha uma opção:");
                 Console.WriteLine("1 - Cadastrar usuário");
                 Console.WriteLine("2 - Visualizar usuários cadastrados");
-                Console.WriteLine("3 - Cadastrar livro");
-                Console.WriteLine("4 - Visualizar livros cadastrados");
-                Console.WriteLine(" - Sair");
+                Console.WriteLine("4 - Sair");
 
-              
                 string escolha = Console.ReadLine();
 
                 switch (escolha)

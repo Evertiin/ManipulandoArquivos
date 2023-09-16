@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
-using Biblioteca.Entidades;
+using CadastroUsuarios.Entidades;
 
-namespace Biblioteca.Métodos
+namespace   CadastroUsuarios.Métodos
 {
     internal class Function
     {
@@ -107,8 +107,8 @@ namespace Biblioteca.Métodos
         public void VisualizarDados()
         {
 
-            string ReaderUsuários = File.ReadAllText(@"C:\\CSharp\Test.txt");
-            
+            string path = File.ReadAllText(@"C:\\CSharp\Test.txt");
+            Console.WriteLine(path);
         }
 
         static bool VerificarStringEmArquivo(string stringParaVerificar, string nomeArquivo)
